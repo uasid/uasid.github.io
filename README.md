@@ -1,2 +1,6 @@
-title: "你的自定义标题"  
-theme: none  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HFT Algorithm Research</title>
+    <style>

@@ -9,12 +9,14 @@
             display: inline-block;
             text-align: left; 
         }
+    h6 { font-size: 14px;}
+    list1 li {font-size: 14px;}
     </style>
 </head>
 <body style="background-color: lightblue">
     <h6> CS1102 - Course Project - High-Frequency Trading Algorithm - 2024/2025 Semester B - Wu Wenluo 57991348, Wu Kong Lung 57923837, Rihad Sunbim Zahin 56632700, Cheng Si Lok 57311010 </h6>
     <h6>Technique</h6>
-        <ul>
+        <ul class="list1">
         <li>HTML basic structure</li>
         <li>CSS style control</li>
         </ul>
@@ -36,6 +38,15 @@
             <li><a href="   " target="_blank">Reference</a></li>
         </ul>
     </div>
+     <script>
+        document.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                if(!confirm('Are you sure you want to leave the current page?')) {
+                    e.preventDefault();
+                }
+            });
+        });
+    </script>
 </body>
 </html>
 
